@@ -1,15 +1,67 @@
-body {
-	background-color: #FFFFFF;
+:root {
+  --main-text-color: #212121;
+  --paragraf-color: #757575;
+  --main-brand-color: #2196f3;
+  --logo-header-color: #000000;
+  --logo-footer-color: #ffffff;
 }
 
-header {
-	background-color: #ECECEC;
+.logo-web-style {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--main-brand-color);
 }
 
-.hero {
-	background-color: #2F303A;
+.logo-studio-style {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--logo-header-color);
 }
 
-footer {
-	background-color: #2F303A;
+.logo-footer-color {
+  color: var(--logo-footer-color);
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.nav-link:hover {
+  color: var(--main-brand-color);
+}
+
+.nav-link:focus {
+  columns: var(--main-brand-color);
+}
+
+.contacts-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contacts-link:hover {
+	color: var(--main-brand-color);
+}
+
+.contacts-link:focus {
+	columns: var(--main-brand-color);
 }
