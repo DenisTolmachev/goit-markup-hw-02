@@ -2,12 +2,12 @@
   --main-text-color: #212121;
   --paragraf-color: #757575;
   --main-brand-color: #2196f3;
-  --hero-background-color: #2f303a;
+  --block-background-color: #2f303a;
+  --button-background-color: #f5f4fa;
 }
 
 body {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: Roboto, sans-serif;
 }
 
 li {
@@ -23,10 +23,11 @@ a {
   text-decoration: none;
 }
 
+/*Главная страница*/
+
 /*Логотип*/
 .logo-web-style {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -36,7 +37,6 @@ a {
 
 .logo-studio-style {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -83,7 +83,7 @@ a {
 
 /*Герой*/
 .hero {
-  background-color: var(--hero-background-color);
+  background-color: var(--block-background-color);
 }
 
 .hero-title {
@@ -126,7 +126,6 @@ a {
 }
 
 .features-item-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -163,7 +162,6 @@ a {
 }
 
 .team-position {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -172,4 +170,65 @@ a {
 }
 
 /*Подвал*/
+footer {
+  background-color: var(--block-background-color);
+}
 
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts-link {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*Страница портфолио*/
+
+/*Фильтры*/
+.portfolio-filter-button {
+  /*position: absolute;*/
+  width: 128px;
+  height: 38px;
+  background: var(--button-background-color);
+  border: none;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.portfolio-filter-button:hover {
+  background: var(--main-brand-color);
+  color: #ffffff;
+}
+
+.portfolio-filter-button:focus {
+  background: var(--main-brand-color);
+  color: #ffffff;
+}
+
+/*Проекты*/
+.projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.projects-description {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--paragraf-color);
+}
