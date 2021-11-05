@@ -29,7 +29,7 @@ body {
 /*Логотип*/
 .logo-web-style {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -38,7 +38,7 @@ body {
 
 .logo-studio-style {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -99,7 +99,7 @@ body {
   background: var(--main-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   /*display: flex;*/
@@ -124,7 +124,7 @@ body {
 }
 
 .features-item-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -140,7 +140,7 @@ body {
 
 /*Чем мы занимаемся*/
 .directions-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
@@ -149,7 +149,7 @@ body {
 
 /*Наша команда*/
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -217,7 +217,7 @@ footer {
 
 /*Проекты*/
 .projects-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
