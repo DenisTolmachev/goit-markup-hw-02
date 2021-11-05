@@ -5,6 +5,8 @@
   --block-background-color: #2f303a;
   --button-background-color: #f5f4fa;
   --hover-text-color: #ffffff;
+  --logo-darck-color: #000000;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -42,7 +44,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-darck-color);
 }
 
 .logo-footer-color {
@@ -188,7 +190,7 @@ footer {
 .footer-contacts-link {
   font-style: normal;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link-color);
 }
 
 /*Страница портфолио*/
