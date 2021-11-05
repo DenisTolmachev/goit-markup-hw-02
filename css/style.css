@@ -57,12 +57,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
-  color: var(--main-brand-color);
-}
-
+.nav-link:hover,
 .nav-link:focus {
-  columns: var(--main-brand-color);
+  color: var(--main-brand-color);
 }
 
 .contacts-link {
@@ -73,12 +70,9 @@ body {
   color: var(--paragraf-color);
 }
 
-.contacts-link:hover {
-  color: var(--main-brand-color);
-}
-
+.contacts-link:hover,
 .contacts-link:focus {
-  columns: var(--main-brand-color);
+  color: var(--main-brand-color);
 }
 
 /*Герой*/
@@ -215,11 +209,7 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.portfolio-filter-button:hover {
-  background: var(--main-brand-color);
-  color: var(--hover-text-color);
-}
-
+.portfolio-filter-button:hover,
 .portfolio-filter-button:focus {
   background: var(--main-brand-color);
   color: var(--hover-text-color);
