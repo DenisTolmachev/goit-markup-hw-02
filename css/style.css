@@ -12,20 +12,15 @@ body {
   color: var(--main-text-color);
 }
 
-li {
+.list {
   list-style-type: none;
 }
 
-ul {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-a {
+.link {
   text-decoration: none;
 }
 
-button {
+.btn {
   cursor: pointer;
 }
 
