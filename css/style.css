@@ -7,6 +7,7 @@
   --hover-text-color: #ffffff;
   --logo-darck-color: #000000;
   --footer-link-color: rgba(255, 255, 255, 0.6);
+  --current-link-color: #0000ff;
 }
 
 body {
@@ -60,6 +61,10 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.current {
+	color: var(--main-brand-color);
 }
 
 .nav-link:hover,
@@ -190,13 +195,10 @@ footer {
 
 /*Фильтры*/
 .secondary-button {
-  /*position: absolute;*/
-  height: 38px;
-  margin: 2px 0 2px 0;
   background: var(--button-background-color);
   border: none;
   border-radius: 4px;
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
